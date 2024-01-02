@@ -47,8 +47,11 @@ int findAppointValPos(int *array, int length, int val, int *pPos)
     {
         *pPos = -1;
     }
+    
     return ret;
 }
+
+
 int main()
 {
     /* 随机数种子 */
